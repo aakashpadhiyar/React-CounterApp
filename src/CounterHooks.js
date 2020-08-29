@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 export default function CounterHooks({ initialCount }) {
+    console.log('Render Counter Hooks')
     const [count, setCount] = useState(initialCount)
     return (
         <div>

@@ -3,6 +3,7 @@ import Counter from './Counter'
 import CounterHooks from './CounterHooks'
 
 function App() {
+  console.log('Render App')
   return (
     <>
       Counter

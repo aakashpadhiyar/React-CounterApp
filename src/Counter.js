@@ -8,7 +8,9 @@ export default class Content extends Component {
             count: props.initialCount
         }
     }
+
     render() {
+        console.log('Render Counter ')
         return (
             <div>
                 <button onClick={() => this.changeCount(-1)}>-</button>
